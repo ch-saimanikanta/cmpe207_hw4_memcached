@@ -1,0 +1,16 @@
+
+Memcached Test Cases: 
+* Test memcached for computations
+Fibonacci without memcached
+Fibonacci with memcached (avoid recomputations)
+* Test memcached for data store - applicable to db / web
+Load content from disk
+Load content from cache
+* Test memcached as a layer for datastore/web application
+Load content from mysql db
+Load content from cache
+* Results:
+In all cases, performance with memcached was faster as expected… 
+Instead of recompute, do a cache lookup
+Instead of load from slow HD, load from cache
+Instead of load from slow DB on disk, load from cache
